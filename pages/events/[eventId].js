@@ -21,7 +21,7 @@ function EventDetailPage() {
       <EventSummary title={event.title} />
       <EventLogistics
         date={event.date}
-        address={event.address}
+        address={event.location}
         image={event.image}
         imageAlt={event.title}
       />
